@@ -1,2 +1,7 @@
-https://zenodo.org/records/15543295/
 
+
+Full sources of dataset:
+
+The complete dataset on causes of death among NBA players, including source details and coding, is available via Zenodo:
+
+https://zenodo.org/records/15543295

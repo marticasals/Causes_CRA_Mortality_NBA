@@ -211,7 +211,7 @@ results <- data.frame(cause = factor(rep(levels(nba2019AAEA$dcause5)[-3], each =
                       variables = c("African  ancestry", "Height [5 cm]",
                                     "NBA debut [5 years]"),
                       HR = NA, CIlow = NA, CIupp = NA)
-results$cause <- relevel(results$cause, ref = "Neoplasm")
+results$cause <- relevel(results$cause, ref = "Neoplasms")
 
 for (d in 1:4) {
   ## Parameter estimates
